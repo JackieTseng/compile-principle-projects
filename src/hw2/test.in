@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int function(int a, int b) {
+	double _d = 23.0;
+	int e = 043;
+}
+
+int main(int argc, char* argv[]) {
+	int a = 1; 
+	int b = 2;
+	int c = a + b;
+
+	function(function(a, b), b);
+	string str = "zhi\" aean";
+	
+	if (c < 0) {
+		c = -c;
+	}
+	
+	ifand(a, bt);
+
+	return c;
+	return (1 + 2);
+	return fun(12);
+}
