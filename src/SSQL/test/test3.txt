@@ -1,0 +1,23 @@
+create table test(col_1 int, col_2 int default = 1, primary key(col_1, col_2));
+
+insert into test(col_1, col_2) values(10*(1+2)-3, -2/(1+1));
+insert into test(col_1) values(2);
+insert into test(col_2) values(2);
+
+select col_1 from test;
+select * from test;
+select col_1,col_2 from test where col_1 == 2;
+select * from test where col_1 + col_2 == 3;
+select col_2 from test where col_1 + -col_2 >= 27;
+select col_1,col_2 from test where col_1 * col_2 < col_1 + col_2;
+select * from test where !col_1 == 2;
+select col_1,col_2 from test where col_1 <= 100 && !col_2 > 0;
+select * from test where col_1 / col_2 <> 0;
+
+select from;
+select a from;
+select from b;
+select col_3 from test;
+select col_1 from test2;
+select col_1 from test where test > 10;
+select col_1 from test where;

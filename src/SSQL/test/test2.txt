@@ -1,0 +1,14 @@
+create table test(col_1 int, col_2 int default = 1, primary key(col_1, col_2));
+
+insert into test(col_1, col_2) values(10*(1+2)-3, -2/(1+1));
+insert into test(col_1, col_2) values(2+3*4/1);
+insert into test(col_1) values(2);
+insert into test(col_2) values(2);
+
+insert into test() values(1);
+insert into test(col_1) values();
+insert into test(col_1, col_3) values(1, 2);
+insert into test(col_1, col_1) values(1, 2);
+insert into test1(col_1, col_2) values(1, 2);
+insert into test(col_1, col_2) values(2, 1);
+insert into test(col_1, col_2) values(1, 2, 3);

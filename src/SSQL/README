@@ -1,0 +1,10 @@
+The compiling command is:make, the makefile would generate a executable program named ssql,the command "make clean" would clear the made program.
+To run ssql, the format of command is:
+
+./ssql [path/]inputfile
+The program will interpret the SSQL statements in the inputfile in the given path.
+
+Directory Detail
+src: include header files and the main program main.cpp.
+test: include test cases we provide.
+doc: our design and test report

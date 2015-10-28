@@ -1,0 +1,26 @@
+create table test(col_1 int, col_2 int default = 1, primary key(col_1, col_2));
+
+insert into test(col_1, col_2) values(10*(1+2)-3, -2/(1+1));
+insert into test(col_1) values(2);
+insert into test(col_2) values(2);
+
+delete from test;
+
+insert into test(col_1, col_2) values(10*(1+2)-3, -2/(1+1));
+insert into test(col_1) values(2);
+insert into test(col_2) values(2);
+
+delete from test where col_1 <= 0 && !col_2 <> 2;
+select * from test;
+delete from test where !col_1 + col_2 == col_2;
+select * from test;
+
+insert into test(col_1, col_2) values(10*(1+2)-3, -2/(1+1));
+insert into test(col_1) values(2);
+insert into test(col_2) values(2);
+
+delete ;
+delete from;
+delete from test where;
+delete from test1;
+delete from test where col_3 <> 4;

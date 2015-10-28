@@ -1,0 +1,22 @@
+create table test1(col_1 int, col_2 int default = -1, primary key(col_1, col_2));
+create table test2(col_1 int default = (3+2)*5/(-1+2));
+
+create table fail_test;
+create table test1(col_1 int);
+create table;
+create table test3(col_1);
+create table test4(col_1 int default);
+create table test5(col_1 int default =);
+create table test6(col_1 int default = 1 / 0);
+create table test7(col_1 int default = 123456789123456789);
+create table test8(col_1 int, col_1 int);
+create table test9(primary);
+create table test10(primary key);
+create table test11(primary key());
+create table test12(col_1 int, primary key(col_2));
+create table test13(col_1 int, primary key(col_1), primary key(col_1));
+create table test14(col_1 int, primary key(col_1, col_2));
+create table test15(col_1 int, col_2 int, primary key(col_1, col_1));
+create table test16(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa int);
+CREATE TABLE test17(sid_1 INT, sid_2 INT, sid_3 INT, sid_4 INT, sid_5 INT, sid_6 INT, sid_7 INT, sid_8 INT, sid_9 INT, sid_10 INT, sid_11 INT, sid_12 INT, sid_13 INT, sid_14 INT, sid_15 INT, sid_16 INT, sid_17 INT, sid_18 INT, sid_19 INT, sid_20 INT, sid_21 INT, sid_22 INT, sid_23 INT, sid_24 INT, sid_25 INT, sid_26 INT, sid_27 INT, sid_28 INT, sid_29 INT, sid_30 INT, sid_31 INT, sid_32 INT, sid_33 INT, sid_34 INT, sid_35 INT, sid_36 INT, sid_37 INT, sid_38 INT, sid_39 INT, sid_40 INT, sid_41 INT, sid_42 INT, sid_43 INT, sid_44 INT, sid_45 INT, sid_46 INT, sid_47 INT, sid_48 INT, sid_49 INT, sid_50 INT, sid_51 INT, sid_52 INT, sid_53 INT, sid_54 INT, sid_55 INT, sid_56 INT, sid_57 INT, sid_58 INT, sid_59 INT, sid_60 INT, sid_61 INT, sid_62 INT, sid_63 INT, sid_64 INT, sid_65 INT, sid_66 INT, sid_67 INT, sid_68 INT, sid_69 INT, sid_70 INT, sid_71 INT, sid_72 INT, sid_73 INT, sid_74 INT, sid_75 INT, sid_76 INT, sid_77 INT, sid_78 INT, sid_79 INT, sid_80 INT, sid_81 INT, sid_82 INT, sid_83 INT, sid_84 INT, sid_85 INT, sid_86 INT, sid_87 INT, sid_88 INT, sid_89 INT, sid_90 INT, sid_91 INT, sid_92 INT, sid_93 INT, sid_94 INT, sid_95 INT, sid_96 INT, sid_97 INT, sid_98 INT, sid_99 INT, sid_100 INT, PRIMARY KEY(sid_1, sid_2, sid_3, sid_4, sid_5, sid_6, sid_7, sid_8, sid_9, sid_10, sid_11, sid_12, sid_13, sid_14, sid_15, sid_16, sid_17, sid_18, sid_19, sid_20, sid_21, sid_22, sid_23, sid_24, sid_25, sid_26, sid_27, sid_28, sid_29, sid_30, sid_31, sid_32, sid_33, sid_34, sid_35, sid_36, sid_37, sid_38, sid_39, sid_40, sid_41, sid_42, sid_43, sid_44, sid_45, sid_46, sid_47, sid_48, sid_49, sid_50, sid_51, sid_52, sid_53, sid_54, sid_55, sid_56, sid_57, sid_58, sid_59, sid_60, sid_61, sid_62, sid_63, sid_64, sid_65, sid_66, sid_67, sid_68, sid_69, sid_70, sid_71, sid_72, sid_73, sid_74, sid_75, sid_76, sid_77, sid_78, sid_79, sid_80, sid_81, sid_82, sid_83, sid_84, sid_85, sid_86, sid_87, sid_88, sid_89, sid_90, sid_91, sid_92, sid_93, sid_94, sid_95, sid_96, sid_97, sid_98, sid_99, sid_100, sid_101));
+CREATE TABLE test18(sid_0 INT, sid_1 INT, sid_2 INT, sid_3 INT, sid_4 INT, sid_5 INT, sid_6 INT, sid_7 INT, sid_8 INT, sid_9 INT, sid_10 INT, sid_11 INT, sid_12 INT, sid_13 INT, sid_14 INT, sid_15 INT, sid_16 INT, sid_17 INT, sid_18 INT, sid_19 INT, sid_20 INT, sid_21 INT, sid_22 INT, sid_23 INT, sid_24 INT, sid_25 INT, sid_26 INT, sid_27 INT, sid_28 INT, sid_29 INT, sid_30 INT, sid_31 INT, sid_32 INT, sid_33 INT, sid_34 INT, sid_35 INT, sid_36 INT, sid_37 INT, sid_38 INT, sid_39 INT, sid_40 INT, sid_41 INT, sid_42 INT, sid_43 INT, sid_44 INT, sid_45 INT, sid_46 INT, sid_47 INT, sid_48 INT, sid_49 INT, sid_50 INT, sid_51 INT, sid_52 INT, sid_53 INT, sid_54 INT, sid_55 INT, sid_56 INT, sid_57 INT, sid_58 INT, sid_59 INT, sid_60 INT, sid_61 INT, sid_62 INT, sid_63 INT, sid_64 INT, sid_65 INT, sid_66 INT, sid_67 INT, sid_68 INT, sid_69 INT, sid_70 INT, sid_71 INT, sid_72 INT, sid_73 INT, sid_74 INT, sid_75 INT, sid_76 INT, sid_77 INT, sid_78 INT, sid_79 INT, sid_80 INT, sid_81 INT, sid_82 INT, sid_83 INT, sid_84 INT, sid_85 INT, sid_86 INT, sid_87 INT, sid_88 INT, sid_89 INT, sid_90 INT, sid_91 INT, sid_92 INT, sid_93 INT, sid_94 INT, sid_95 INT, sid_96 INT, sid_97 INT, sid_98 INT, sid_99 INT, sid_100 INT);
