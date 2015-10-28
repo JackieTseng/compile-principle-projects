@@ -1,4 +1,13 @@
-#Simple SQL Interpreter
+#Simplified SQL Interpreter
+SSQL is a subset of features in standard SQL language
+Four operations supported in SSQL:
+* Create a new table
+* Insert a row into an existed table
+* Delete rows from an existed table
+* Query on an existed table
+
+No join, aggregation, complex constraints...
+
 ###Compiling command
 1. `make`
 
